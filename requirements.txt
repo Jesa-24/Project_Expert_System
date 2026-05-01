@@ -1,0 +1,37 @@
+# =============================================
+# RAG Expert System (Gemini Version)
+# =============================================
+
+# LangChain core
+langchain==0.3.14
+langchain-community==0.3.14
+langchain-text-splitters==0.3.8
+langchain-google-genai==2.0.8
+langchain-huggingface==0.1.2
+langchain-chroma==0.1.4
+
+# Google Gemini
+google-generativeai==0.8.3
+
+# Vector Database
+# Pinned to a resolver-verified version compatible with langchain-chroma==0.1.4
+chromadb==0.5.23
+
+# Document Loaders
+pypdf==5.1.0
+docx2txt==0.8          # Dibutuhkan oleh Docx2txtLoader (berbeda dengan python-docx!)
+python-docx==1.1.2
+python-pptx==1.0.2
+
+# Embeddings (HuggingFace - gratis, lokal)
+sentence-transformers==3.3.1
+transformers==4.41.2
+torch==2.6.0
+
+# UI
+streamlit==1.41.1
+
+# Utilities
+python-dotenv==1.0.1
+tqdm==4.67.1
+requests==2.32.3

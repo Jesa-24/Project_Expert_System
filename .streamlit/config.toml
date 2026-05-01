@@ -1,0 +1,3 @@
+[server]
+# Menonaktifkan file watcher untuk menghindari warning dari torch
+fileWatcherType = "none"
